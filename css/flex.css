@@ -1,9 +1,17 @@
 /*
 flex-direction: row | row-reverse | column | column-reverse
 flex-wrap: nowrap | wrap | wrap-reverse
+flex-flow: flex-direction flex-wrap => 두개를 같이쓰는 속성
+justify-content: flex-start | flex-end | center | space-around | space-between | space-evenly
 */
 .wrap {border: 2px solid #f00;}
-.navs {border: 2px solid #0f0; display: flex; -ms-display: flex;}
-.navs > li {border: 2px solid #00f; width: 25%; text-align: center; padding: 0.5rem;}
-.gallery {display: flex; -ms-display: flex; flex-wrap: wrap; -ms-flex-wrap: wrap;}
+.navs {border: 2px solid #0f0; 
+	display: flex; -ms-display: flex;
+	justify-content: center; -ms-justify-content: center;
+}
+.navs > li {border: 2px solid #00f; text-align: center; padding: 0.5rem;}
+.gallery {
+	display: flex; -ms-display: flex; 
+	flex-wrap: wrap; -ms-flex-wrap: wrap;
+}
 .gallery > li {width: 25%;}
