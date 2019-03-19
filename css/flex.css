@@ -1,0 +1,9 @@
+/*
+flex-direction: row | row-reverse | column | column-reverse
+flex-wrap: nowrap | wrap | wrap-reverse
+*/
+.wrap {border: 2px solid #f00;}
+.navs {border: 2px solid #0f0; display: flex; -ms-display: flex;}
+.navs > li {border: 2px solid #00f; width: 25%; text-align: center; padding: 0.5rem;}
+.gallery {display: flex; -ms-display: flex; flex-wrap: wrap; -ms-flex-wrap: wrap;}
+.gallery > li {width: 25%;}
