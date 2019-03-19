@@ -3,7 +3,8 @@ flex-direction: row | row-reverse | column | column-reverse
 flex-wrap: nowrap | wrap | wrap-reverse
 flex-flow: flex-direction flex-wrap => 두개를 같이쓰는 속성
 justify-content: flex-start | flex-end | center | space-around | space-between | space-evenly
-align-items: flex-start | flex-end | center | stretch | baseline;
+align-items: flex-start | flex-end | center | stretch | baseline
+align-content: flex-start | flex-end | center | space-between | space-around | stretch
 */
 .wrap {border: 2px solid #f00;}
 .navs {border: 2px solid #0f0; 
