@@ -1,3 +1,8 @@
+.wrap {width: 100%; max-width: 700px; margin:4rem auto; line-height: 1.5; text-align: center;}
+.wrap > .title {background-color: #111; color: #f8f8f8; text-align: center; display: inline-block; padding:0.25rem;}
+.wrap > p {margin: 2rem 0; text-align: justify;}
+.wrap > .blockquote {border-left:5px solid #ccc; background-color: #eee; padding: 1.5rem; text-align: left;}
+
 .navs {width: 100%; background-color: #111; color:#f8f8f8; text-align: center; 
 	padding: 0.5rem 1rem; position: fixed; z-index: 1000; font-size: 0.75rem;
 display: flex;}
@@ -12,3 +17,5 @@ display: flex;}
 .main_tit {color: #fff; font-size: 10vw; align-self: center;}
 .main_time {padding:0.25rem 0.5rem; background-color: #111; color: #f8f8f8; margin:1rem;}
 .main_addr {color: #f8f8f8; margin: 1rem;}
+
+.abouts > .about_time {margin: 1rem 0;}
