@@ -19,3 +19,14 @@ display: flex;}
 .main_addr {color: #f8f8f8; margin: 1rem;}
 
 .abouts > .about_time {margin: 1rem 0;}
+
+.menu_tab {box-shadow: 0 0 10px rgba(0,0,0,0.5); overflow: hidden; margin-top: 2rem;}
+.menu_tab > .tabs {box-shadow: 0 0 10px rgba(0,0,0,0.5); display: flex;}
+.menu_tab > .tabs > li {flex:1 1 50%; margin:0.25rem 0.5rem; cursor: pointer;}
+.tab_active {background-color: #999; color:#fff;}
+
+.menu_tab > div {text-align: left; padding:1rem;}
+ul.menu_cont {margin: 1.5rem 0;}
+ul.menu_cont > li.title {margin-bottom: 0.75rem;}
+ul.menu_cont > li.cont {font-size: 0.875rem; color: #999;}
+.drink {display:none;}
