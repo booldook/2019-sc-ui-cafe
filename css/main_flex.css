@@ -1,0 +1,14 @@
+.navs {width: 100%; background-color: #111; color:#f8f8f8; text-align: center; 
+	padding: 0.5rem 1rem; position: fixed; z-index: 1000; font-size: 0.75rem;
+display: flex;}
+/* flex: 0,1,2(flex-grow) 0,1(flex-shrink) 25%(flex-basis); */
+.navs > li {cursor: pointer; padding:0.5rem 0; flex: 1 1 10%; }
+.navs > li:hover {background-color: #bbb; color: #111;}
+
+
+
+.mains {width: 100%; height: 80%; background: url(../img/coffeehouse.jpg) no-repeat center; background-size: cover; display:flex; justify-content: space-between; align-items: flex-end;}
+
+.main_tit {color: #fff; font-size: 10vw; align-self: center;}
+.main_time {padding:0.25rem 0.5rem; background-color: #111; color: #f8f8f8; margin:1rem;}
+.main_addr {color: #f8f8f8; margin: 1rem;}
