@@ -39,10 +39,14 @@ ul.menu_cont > li.cont {font-size: 0.875rem; color: #999;}
 /***** jQuery UI *****/
 .ui-spinner {width: 100%; border: 1px solid #999; padding: 0.5rem; margin-bottom: 1rem;}
 .ui-widget.ui-widget-content {border: 1px solid #999;}
-.spinner:focus {outline: none;}
+.spinner:focus, .spinner2:focus {outline: none;}
 .ui-corner-all {
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
 }
+
+.reserves {display: flex; justify-content: space-between;}
+.reserves > input, .reserves > span {flex: 0 1 32%;}
+.reserves > input {height: 55px; padding: 0.5rem;}

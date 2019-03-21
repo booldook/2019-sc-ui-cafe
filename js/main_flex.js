@@ -11,3 +11,15 @@ $(".tabs > li").click(function(){
 var dt = new Date();
 dateTime = dt.getFullYear() + "-" + zeroPlus(dt.getMonth()+1) + "-" + zeroPlus(dt.getDate()) + " " + getAmPm(dt.getHours()) + ":" + zeroPlus(dt.getMinutes());
 $("form[name='contact_form']").find("input[name='reserve']").val(dateTime);
+
+//datepicker init
+$("#reserve_date").datepicker();
+$(".reserves").find(".spinner2").eq(0).spinner({
+	min: 10,
+	max: 22
+});
+$(".reserves").find(".spinner2").eq(1).spinner({
+	min: 0,
+	max: 50,
+	step: 10
+});

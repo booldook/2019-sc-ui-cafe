@@ -20,6 +20,4 @@ $(document).ready(function(){
 	$(".spinner").spinner({
 		min: 1
 	});
-	//datepicker init
-	$("#reserve2").datepicker();
 });
