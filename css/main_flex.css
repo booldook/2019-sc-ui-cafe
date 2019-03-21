@@ -1,7 +1,9 @@
 .wrap {width: 100%; max-width: 700px; margin:4rem auto; line-height: 1.5; text-align: center;}
 .wrap > .title {background-color: #111; color: #f8f8f8; text-align: center; display: inline-block; padding:0.25rem;}
+.wrap > .title_sub {font-size: 1.125rem;}
 .wrap > p {margin: 2rem 0; text-align: justify;}
 .wrap > .blockquote {border-left:5px solid #ccc; background-color: #eee; padding: 1.5rem; text-align: left;}
+
 
 .navs {width: 100%; background-color: #111; color:#f8f8f8; text-align: center; 
 	padding: 0.5rem 1rem; position: fixed; z-index: 1000; font-size: 0.75rem;
@@ -30,3 +32,5 @@ ul.menu_cont {margin: 1.5rem 0;}
 ul.menu_cont > li.title {margin-bottom: 0.75rem;}
 ul.menu_cont > li.cont {font-size: 0.875rem; color: #999;}
 .drink {display:none;}
+
+.contacts > .title {margin: 1rem;}
