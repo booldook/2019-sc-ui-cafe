@@ -34,3 +34,4 @@ ul.menu_cont > li.cont {font-size: 0.875rem; color: #999;}
 .drink {display:none;}
 
 .contacts > .title {margin: 1rem;}
+.contact_form > .in {width: 100%; padding: 1rem 0.5rem; border: 1px solid #999; margin-bottom: 1rem;}
