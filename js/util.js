@@ -17,7 +17,5 @@ function zeroPlus(n) {
 // jQuery UI init
 $(document).ready(function(){
 	//spinner init
-	$(".spinner").spinner({
-		min: 1
-	});
+	$(".spinner").spinner({ min: 1 });
 });

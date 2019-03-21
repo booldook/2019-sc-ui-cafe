@@ -14,11 +14,11 @@ $("form[name='contact_form']").find("input[name='reserve']").val(dateTime);
 
 //datepicker init
 $("#reserve_date").datepicker();
-$(".reserves").find(".spinner2").eq(0).spinner({
+$(".reserves").find(".spinner2").spinner({
 	min: 10,
 	max: 22
 });
-$(".reserves").find(".spinner2").eq(1).spinner({
+$(".reserves").find(".spinner3").spinner({
 	min: 0,
 	max: 50,
 	step: 10
