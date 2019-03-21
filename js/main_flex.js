@@ -7,3 +7,7 @@ $(".tabs > li").click(function(){
 	$(".menu_div").hide();
 	$(".menu_div").eq(n).show();
 });
+
+var dt = new Date();
+dateTime = dt.getFullYear() + "-" + zeroPlus(dt.getMonth()+1) + "-" + zeroPlus(dt.getDate()) + " " + getAmPm(dt.getHours()) + ":" + zeroPlus(dt.getMinutes());
+$("form[name='contact_form']").find("input[name='reserve']").val(dateTime);
