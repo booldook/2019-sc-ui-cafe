@@ -13,3 +13,13 @@ function zeroPlus(n) {
 	if(n < 10) return "0" + n;
 	else return n;
 }
+
+// jQuery UI init
+$(document).ready(function(){
+	//spinner init
+	$(".spinner").spinner({
+		min: 1
+	});
+	//datepicker init
+	$("#reserve2").datepicker();
+});

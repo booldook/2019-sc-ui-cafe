@@ -35,3 +35,14 @@ ul.menu_cont > li.cont {font-size: 0.875rem; color: #999;}
 
 .contacts > .title {margin: 1rem;}
 .contact_form > .in {width: 100%; padding: 1rem 0.5rem; border: 1px solid #999; margin-bottom: 1rem;}
+
+/***** jQuery UI *****/
+.ui-spinner {width: 100%; border: 1px solid #999; padding: 0.5rem; margin-bottom: 1rem;}
+.ui-widget.ui-widget-content {border: 1px solid #999;}
+.spinner:focus {outline: none;}
+.ui-corner-all {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
